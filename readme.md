@@ -8,7 +8,7 @@ A gradio based image captioning tool that uses the GPT-4-Vision API to generate 
 - **Batch Processing**: Ability to process an entire folder of images with customized pre and post prompts.
 
 ## Screenshot
-![image](https://github.com/42lux/CaptainCaption/assets/7535793/cb74a3e0-28f4-4ff0-bddd-1b41a809946f)
+![image](https://github.com/42lux/CaptainCaption/assets/7535793/523ca006-732c-4da2-9f92-c31ef59a0ea9)
 
 ## Installation
 Clone repository
