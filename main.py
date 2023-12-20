@@ -110,7 +110,7 @@ def process_folder(api_key, folder_path, prompt, detail, max_tokens, pre_prompt=
         description = generate_description(api_key, image_path, prompt, detail, max_tokens)
         txt_path = os.path.join(folder_path, os.path.splitext(file)[0] + ".txt")
 
-        with open(txt_path, 'w') as f:
+        with open(txt_path, 'w', encoding='utf-8') as f:
             f.write(pre_prompt + ", " + description + " " + post_prompt)
 
     with ThreadPoolExecutor(max_workers=num_workers) as executor:
